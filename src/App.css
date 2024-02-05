@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Pinyon+Script&display=swap');
+
+
+@font-face {
+  font-family: "Julietta-Messie";
+  src: url('/public/julietta-messie/Julietta-Messie-Demo.otf');
+}
+
+body {
+
+  background-color: #2F2F2F;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.nav-text {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.actionBtn {
+
+  background-color: #ACACAC;
+  border: none;
+  outline: none;
+  padding: 15px 20px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+
+}
+
+.submitBtn{
+
+  background-color: #fff;
+  border: none;
+  outline: none;
+  padding: 15px 20px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 8px;
+  color: #BB8DEA;
+  font-weight: 600;
+  cursor: pointer;
+
+}
+
+.signtext {
+
+  font-family: 'Julietta-Messie';
+  color: #D0D0D0;
+
+}
+
+.purpleBtn {
+
+  background-color: #BB8DEA;
+  color: white;
+  font-weight: 600;
+
+}
+
+.white {
+
+  color: white !important;
+
+}
+
+.hero-section>div {
+
+  margin-top: 120px;
+
+}
+
+.hero-section>div>p {
+
+  margin: 30px 0px;
+
+}
+
+.icon {
+
+  display: inline;
+  width: 40px;
+  height: 40px;
+
+}
+
+.title {
+
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  color: #2F2F2F;
+  margin: 18px 0px;
+
+}
+
+.aboutme {
+
+  margin-top: -40px;
+
+}
+
+.aboutme>p {
+
+  margin: 24px 0px;
+  font-size: 24px;
+  color: #2F2F2F;
+  font-weight: 600;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.aboutme>p:nth-last-child(2) {
+
+  margin-top: 60px;
+
+}
+
+.socials {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 80px;
+  cursor: pointer;
+
+}
+
+.socials>img {
+
+  margin-right: 18px;
+
+}
+
+.socials>span {
+
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #2F2F2F;
+
+}
+
+.subtitle {
+
+  color: white;
+  margin: 12px 0px;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.skillset-section > section > .iconContainer{
+
+  color: white;
+
+}
+
+.iconContainer>div {
+
+  background-color: rgba(255, 255, 255, 0.08);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 8px;
+
+}
+
+.iconContainer>p {
+
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.icon {
+
+  display: inline;
+  width: 50px;
+  height: 50px;
+
+}
+
+.project-header , .exp-header{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+
+}
+
+.project-header> div:first-child >img , .exp-header> div:first-child >img {
+
+  display: inline;
+  width: 80px;
+  height: 80px;
+  margin-right: 24px;
+
+}
+
+
+.project-header>div , .exp-header>div {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 24px;
+
+}
+
+.project-header-title > p:first-child , .exp-header-title > p:first-child {
+
+  color: #2F2F2F;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 12px 0;
+
+}
+
+.project-header-title > .subtitle {
+
+  color: #2F2F2F;
+
+}
+
+.linkContainer{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+}
+
+.linkContainer > img {
+
+  display: inline;
+  width: 40px;
+  height: 40px;
+  margin-right: 24px;
+  cursor: pointer;
+
+}
+
+.project-main , .exp-main{
+
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 24px;
+  margin: 60px 0px;
+
+}
+
+.project-main > ul > li {
+
+  margin: 36px 0px;
+  text-align: justify;
+
+}
+
+.project-footer{
+
+  margin-top: -30px;
+
+}
+
+.contactForm{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 100%;
+
+
+}
+
+.input-fields{
+
+  width: 100%;
+  padding: 15px 0px 15px 15px;
+  background-color: rgba(255, 255, 255, 28%);
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 18px;
+  font-family: 'Josefin Sans', sans-serif;
+  border-radius: 8px;
+
+}
+
+.input-fields::placeholder{
+  color: rgba(255, 255, 255 , 0.6);
+  font-family: 'Josefin Sans', sans-serif;
+}
