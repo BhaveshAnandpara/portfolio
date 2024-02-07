@@ -1,5 +1,7 @@
 import React from 'react'
-import { Link } from "react-router-dom";
+import menu from '../../assets/menu.svg'
+import close from '../../assets/x.svg'
+import { useRef , useState } from 'react'
 
 
 const move = ( ele )=>{
@@ -20,24 +22,16 @@ const move = ( ele )=>{
       scrollHeight += document.getElementById('hero').clientHeight
     default :
       window.scrollTo( 0 , scrollHeight-130 )
-
   }    
+  
 
 }
 
 function Nav() {
 
-  const headerStyle={
+  const [isOpen, setIsOpen] = useState(false)
+  const navRef = useRef()
 
-    display : 'flex',
-    justifyContent : 'space-between',
-    alignItems : 'center',
-    padding : '24px 60px',
-    position : 'fixed',
-    width : "calc( 100% - 120px )",
-    backgroundColor : '#2F2F2F'
-
-  }
 
   const navStyle={
     display : 'flex',
@@ -46,12 +40,40 @@ function Nav() {
     width : '60%'
   }
 
+  const toggleMenu = ()=>{
 
+    if( isOpen ){
+      
+      navRef.current.style.translate = "-100%"
+      
+    }else{
+
+      navRef.current.style.translate = "0%"
+
+    }
+
+    setIsOpen( !isOpen )
+
+  }
 
   return (
-    <header style={headerStyle} >
+    <>
+        {
+          !isOpen && 
+          <img onClick={()=> toggleMenu( ) } src={menu} id='menu-icon' alt="menu icon" style={{ cursor : 'pointer' }} />
 
-        <nav id='navbar' style={navStyle} >
+        }
+
+    <header className='header' ref={navRef} >
+
+        {
+          isOpen && 
+          <img onClick={()=> toggleMenu( ) } src={close} id='close-icon' alt="close icon" style={{ cursor : 'pointer' }} />
+
+        }
+
+
+        <nav id='navbar' style={navStyle}  >
 
             <a className='nav-text' onClick={ ()=>move( "Home" ) }  > Home </a>
             <a className='nav-text' onClick={ ()=>move( "About" ) }  > About Me </a>
@@ -65,6 +87,7 @@ function Nav() {
         <button className='actionBtn' onClick={()=>{ window.open('https://drive.google.com/file/d/1bjJXdv670T-a5tGwTsK8_hxdnaYtlWfp/view?usp=sharing') }} > Resume </button>
 
     </header>
+    </>
   )
 }
 

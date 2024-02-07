@@ -17,6 +17,15 @@ body {
 
 }
 
+#menu-icon, #close-icon{
+  display: none;
+  position: absolute;
+  z-index: 10;
+  top: 10%;
+}
+
+
+
 .nav-text {
   text-decoration: none;
   color: white;
@@ -125,6 +134,16 @@ body {
 
   margin-top: 60px;
 
+}
+
+header{
+  display : flex;
+  justify-content : space-between;
+  align-items : center;
+  padding : 24px 60px;
+  position : fixed;
+  width : calc( 100% - 120px );
+  background-color : #2F2F2F;
 }
 
 .socials {
@@ -303,4 +322,70 @@ body {
 .input-fields::placeholder{
   color: rgba(255, 255, 255 , 0.6);
   font-family: 'Josefin Sans', sans-serif;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+  #menu-icon{
+    display: block;
+    left: 10%;
+  }
+
+  #close-icon{
+    display: block;
+    right: 10%;
+  }
+
+  header{
+    height: calc(100vh - 48px);
+    width : calc(100vw - 120px);
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    translate: -100%;
+    transition: all 0.8s linear;
+
+  }
+
+  #navbar{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 70%;
+    width: 90% !important;
+    margin-top: 120px;
+  }
+
+  .nav-text{
+    width: 100%;
+  }
+
+  header > .actionBtn{
+
+    margin-top: 60px;
+
+  }
+
+  .hero-section>div>p {
+
+    font-size: smaller;
+  
+  }
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  .header{
+    width: auto !important;
+  }
+
+  .nav-text{
+    display: none;
+  }
+
 }
