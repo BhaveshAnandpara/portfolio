@@ -26,7 +26,7 @@ export default function Hero() {
       <div  >
 
         <p> I'm <span className='signtext' > Bhavesh Anandpara </span> </p>
-        <p>Passionate Software Engineer</p>
+        <p>Skilled Software Engineer</p>
         <p>Based in India.</p>
 
       </div>

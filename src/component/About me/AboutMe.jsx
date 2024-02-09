@@ -9,7 +9,7 @@ export default function AboutMe() {
 
         backgroundColor: '#F8F8F8',
         padding: '60px',
-        height : 'calc(100vh - 180px)',
+        minHeight : 'calc(100vh - 180px)',
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'space-between',
