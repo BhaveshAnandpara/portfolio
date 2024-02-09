@@ -17,13 +17,7 @@ export default function AboutMe() {
 
     }
 
-    const socialMediaStyle = {
 
-        display: 'flex',
-        justifyContent: 'flex-start',
-        alignItems: 'center'
-
-    }
 
     return (
         <>
@@ -54,7 +48,7 @@ export default function AboutMe() {
 
                 </div>
 
-                <div style={socialMediaStyle} >
+                <div className='scoialMediaCon' >
 
                     <div className='socials' onClick={()=>window.open('https://www.linkedin.com/in/bhavesh-anandpara/')} >
                         <img className='icon' src={linkedInLogo} alt="LinkedIn Logo" />

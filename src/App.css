@@ -17,7 +17,8 @@ body {
 
 }
 
-#menu-icon, #close-icon{
+#menu-icon,
+#close-icon {
   display: none;
   position: absolute;
   z-index: 10;
@@ -47,7 +48,7 @@ body {
 
 }
 
-.submitBtn{
+.submitBtn {
 
   background-color: #fff;
   border: none;
@@ -136,14 +137,14 @@ body {
 
 }
 
-header{
-  display : flex;
-  justify-content : space-between;
-  align-items : center;
-  padding : 24px 60px;
-  position : fixed;
-  width : calc( 100% - 120px );
-  background-color : #2F2F2F;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 60px;
+  position: fixed;
+  width: calc(100% - 120px);
+  background-color: #2F2F2F;
 }
 
 .socials {
@@ -178,10 +179,16 @@ header{
 
 }
 
-.skillset-section > section > .iconContainer{
+.skillset-section>section>.iconContainer {
 
   color: white;
 
+}
+
+.scoialMediaCon {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .iconContainer>div {
@@ -209,7 +216,8 @@ header{
 
 }
 
-.project-header , .exp-header{
+.project-header,
+.exp-header {
 
   display: flex;
   justify-content: space-between;
@@ -218,7 +226,8 @@ header{
 
 }
 
-.project-header> div:first-child >img , .exp-header> div:first-child >img {
+.project-header>div:first-child>img,
+.exp-header>div:first-child>img {
 
   display: inline;
   width: 80px;
@@ -228,7 +237,8 @@ header{
 }
 
 
-.project-header>div , .exp-header>div {
+.project-header>div,
+.exp-header>div {
 
   display: flex;
   justify-content: center;
@@ -239,7 +249,8 @@ header{
 
 }
 
-.project-header-title > p:first-child , .exp-header-title > p:first-child {
+.project-header-title>p:first-child,
+.exp-header-title>p:first-child {
 
   color: #2F2F2F;
   font-size: 32px;
@@ -248,13 +259,13 @@ header{
 
 }
 
-.project-header-title > .subtitle {
+.project-header-title>.subtitle {
 
   color: #2F2F2F;
 
 }
 
-.linkContainer{
+.linkContainer {
 
   display: flex;
   justify-content: center;
@@ -263,7 +274,7 @@ header{
 
 }
 
-.linkContainer > img {
+.linkContainer>img {
 
   display: inline;
   width: 40px;
@@ -273,7 +284,8 @@ header{
 
 }
 
-.project-main , .exp-main{
+.project-main,
+.exp-main {
 
   font-family: 'Josefin Sans', sans-serif;
   font-size: 24px;
@@ -281,20 +293,20 @@ header{
 
 }
 
-.project-main > ul > li {
+.project-main>ul>li {
 
   margin: 36px 0px;
   text-align: justify;
 
 }
 
-.project-footer{
+.project-footer {
 
   margin-top: -30px;
 
 }
 
-.contactForm{
+.contactForm {
 
   display: flex;
   justify-content: space-between;
@@ -305,7 +317,7 @@ header{
 
 }
 
-.input-fields{
+.input-fields {
 
   width: 100%;
   padding: 15px 0px 15px 15px;
@@ -319,27 +331,31 @@ header{
 
 }
 
-.input-fields::placeholder{
-  color: rgba(255, 255, 255 , 0.6);
+.input-fields::placeholder {
+  color: rgba(255, 255, 255, 0.6);
   font-family: 'Josefin Sans', sans-serif;
 }
 
 
 @media only screen and (max-width: 768px) {
 
-  #menu-icon{
+  body {
+    font-size: smaller;
+  }
+
+  #menu-icon {
     display: block;
     left: 10%;
   }
 
-  #close-icon{
+  #close-icon {
     display: block;
     right: 10%;
   }
 
-  header{
+  header {
     height: calc(100vh - 48px);
-    width : calc(100vw - 120px);
+    width: calc(100vw - 120px);
     overflow-y: hidden;
     display: flex;
     flex-direction: column;
@@ -349,7 +365,7 @@ header{
 
   }
 
-  #navbar{
+  #navbar {
 
     display: flex;
     flex-direction: column;
@@ -359,11 +375,11 @@ header{
     margin-top: 120px;
   }
 
-  .nav-text{
+  .nav-text {
     width: 100%;
   }
 
-  header > .actionBtn{
+  header>.actionBtn {
 
     margin-top: 60px;
 
@@ -372,7 +388,37 @@ header{
   .hero-section>div>p {
 
     font-size: smaller;
+
+  }
+
+
+  .scoialMediaCon{
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .socials{
+    margin-right: 24px;
+  }
+
+  .icon {
+
+    display: inline;
+    width: 24px;
+    height: 24px;
+
+  }
+
+  #skills{
+    height: auto !important;
+  }
+
+  .iconContainer{
+    flex: 1 0 15% !important;
+  }
   
+  .project-footer > section > .iconContainer{
+    flex: 1 0 20% !important;
   }
 
 }
@@ -380,11 +426,11 @@ header{
 
 @media only screen and (max-width: 600px) {
 
-  .header{
+  .header {
     width: auto !important;
   }
 
-  .nav-text{
+  .nav-text {
     display: none;
   }
 
