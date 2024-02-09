@@ -424,7 +424,7 @@ header {
 }
 
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 600px) {
 
   #hero{
     font-size: xxx-large !important;
