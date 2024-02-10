@@ -1,5 +1,6 @@
 import React from 'react'
-import {move} from '../Navbar/Nav'
+import { move } from '../Navbar/Nav'
+import profile from '../../assets/profile.png'
 
 export default function Hero() {
 
@@ -23,15 +24,21 @@ export default function Hero() {
   return (
     <section id='hero' className='hero-section' style={heroStyle} >
 
-      <div  >
+      <div>
 
-        <p> I'm <span className='signtext' > Bhavesh Anandpara </span> </p>
-        <p>Skilled Software Engineer</p>
-        <p>Based in India.</p>
+        <div>
 
+          <p> I'm <span className='signtext' > Bhavesh Anandpara </span> </p>
+          <p>Skilled Software Engineer</p>
+          <p>Based in India.</p>
+
+        </div>
+
+        <img id='profile' src={profile} alt="profile" />
       </div>
 
-      <button className='actionBtn purpleBtn' style={actionBtnStyle} onClick={()=>{ move("Contact") }}  > Get in touch </button>
+      <button className='actionBtn purpleBtn' style={actionBtnStyle} onClick={() => { move("Contact") }}  > Get in touch </button>
+
 
     </section>
   )

@@ -64,6 +64,11 @@ body {
 
 }
 
+#profile{
+  border-radius: 100%;
+  width: 20%;
+}
+
 .signtext {
 
   font-family: 'Julietta-Messie';
@@ -85,13 +90,15 @@ body {
 
 }
 
-.hero-section>div {
-
+.hero-section>div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
   margin-top: 120px;
-
 }
 
-.hero-section>div>p {
+.hero-section>div>div>p {
 
   margin: 30px 0px;
 
@@ -341,6 +348,12 @@ header {
 
   body {
     font-size: smaller;
+  }
+
+  #profile{
+    border-radius: 100%;
+    width: 20%;
+    display: none;
   }
 
   #menu-icon {
