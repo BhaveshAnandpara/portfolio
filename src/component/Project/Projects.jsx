@@ -79,7 +79,7 @@ export default function Projects() {
             icon: bajajLogo,
             name: 'Leave Management System',
             duration: '06/2023 - Current',
-            links: [ { src: ytIcon, name: 'Youtube Link' , link : '#' }],
+            links: [ { src: ytIcon, name: 'Loom Link' , link : 'https://www.loom.com/share/296c3c9430f742e4b89d2a5d4eccb90c?sid=132133e4-48d3-46d2-9e13-750b76c77dfe' }],
             main: [
                 'Developed a web-based software application that is being used by our college to facilitate leave requests of almost 50+ Staff Members.',
                 'Eliminated approximately 50% of the time required to approve leave requests compared to the traditional procedure.',
