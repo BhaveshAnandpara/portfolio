@@ -35,15 +35,11 @@ export default function AboutMe() {
                         My passion lies in utilizing programming to address real-world challenges.
                     </p>
                     <p>
-                        Currently exploring the craze of Data Structure and Algorithms.
+                        I'm currently delving into DevOps and Cloud Services and writing a Medium blog series aimed at college students and beginners who are interested in learning about DevOps.
                     </p>
 
                     <p>
-                        I enjoy watching movies and anime. Recently, I've embarked on a journey into cooking.
-
-                    </p>
-                    <p>
-                        Also I am a huge chai lover 💖
+                        I enjoy watching movies and anime. Also I am a huge chai lover 💖
                     </p>
 
                 </div>

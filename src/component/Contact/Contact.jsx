@@ -49,7 +49,7 @@ export default function Contact() {
 
                 <input ref={nameRef} className='input-fields' type="text" placeholder='Name' name='name' />
                 <input ref={emailRef} className='input-fields' type="email" placeholder='Email' name='email' />
-                <textarea  ref={contentRef} className='input-fields' cols="30" rows="10" placeholder='Write Anything !! A simple Hi also works 🙌' name='content' ></textarea>
+                <textarea  ref={contentRef} className='input-fields' cols="30" rows="5" placeholder='Write Anything !! A simple Hi also works 🙌' name='content' ></textarea>
 
                 <button type="button" className='submitBtn' onClick={()=>validateForm()} > Send Message </button>
 

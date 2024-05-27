@@ -10,6 +10,12 @@
   src: url('/public/julietta-messie/Julietta-Messie-Demo.otf');
 }
 
+:root{
+  --nav-font-size : 18px;
+  --hero-font-size : 28px;
+  --about-font-size : 20px;
+}
+
 body {
 
   background-color: #2F2F2F;
@@ -30,7 +36,7 @@ body {
 .nav-text {
   text-decoration: none;
   color: white;
-  font-size: 20px;
+  font-size: var(--nav-font-size);
   font-weight: 400;
   cursor: pointer;
 }
@@ -41,7 +47,7 @@ body {
   border: none;
   outline: none;
   padding: 15px 20px;
-  font-size: 20px;
+  font-size: var(--nav-font-size);
   font-weight: 400;
   font-family: 'Poppins', sans-serif;
   cursor: pointer;
@@ -95,7 +101,7 @@ body {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  margin-top: 120px;
+  margin-top:5%;
 }
 
 .hero-section>div>div>p {
@@ -116,7 +122,7 @@ body {
 
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 700;
-  font-size: 32px;
+  font-size: var(--hero-font-size);
   color: #2F2F2F;
   margin: 18px 0px;
 
@@ -131,10 +137,9 @@ body {
 .aboutme>p {
 
   margin: 24px 0px;
-  font-size: 24px;
-  color: #2F2F2F;
-  font-weight: 600;
-  font-family: 'Josefin Sans', sans-serif;
+  font-size: var(--about-font-size);
+  color: #707070;
+  font-weight: 500;
 
 }
 
@@ -182,7 +187,6 @@ header {
 
   color: white;
   margin: 12px 0px;
-  font-family: 'Josefin Sans', sans-serif;
 
 }
 
@@ -252,7 +256,7 @@ header {
   align-items: center;
   flex-direction: row;
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 24px;
+  font-size: var(--about-font-size);
 
 }
 
@@ -294,9 +298,9 @@ header {
 .project-main,
 .exp-main {
 
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 24px;
+  font-size: var(--about-font-size);
   margin: 60px 0px;
+  color : #707070;
 
 }
 

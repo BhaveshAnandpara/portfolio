@@ -8,9 +8,9 @@ export default function Experience() {
   const Experience = [
     {
       icon: coditasLogo,
-      name: "Associate Software Intern at Coditas Solution LLP",
+      name: "DevOps Interns at Coditas Solution LLP",
       duration: "01/2024 - Current",
-      main: [],
+      main: ["During my internship, I gained hands-on experience with AWS and its core services, enhancing my cloud computing skills. "," I learned Docker, enabling me to efficiently containerize and deploy applications."],
     },
     {
       icon: devkitLogo,

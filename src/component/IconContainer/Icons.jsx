@@ -5,7 +5,7 @@ export default function Icons({ data , flex }) {
     const iconSectionStyle = {
 
         display : 'flex',
-        justifyContent : 'center',
+        justifyContent : 'flex-start',
         alignItems : 'center',
         flexDirection : 'row',
         flexWrap: 'wrap'
@@ -19,8 +19,8 @@ export default function Icons({ data , flex }) {
         alignItems  : 'center',
         flexDirection : 'column',
         width : 'fit-content',
-        flex: `1 0 ${flex}%`,
-        margin: '48px 0px 0px 0px'
+        //flex: `1 0 ${flex}%`,
+        margin: '32px 60px 32px 0px'
     }
 
 

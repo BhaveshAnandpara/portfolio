@@ -12,10 +12,14 @@ import mysqlLogo from '../../assets/mysql.svg'
 import phpLogo from '../../assets/php.svg'
 import pythonLogo from '../../assets/python.svg'
 import javaLogo from '../../assets/java.svg'
+import awsLogo from '../../assets/aws.png'
+import dockerLogo from '../../assets/docker-mark-blue.png'
 
 export default function SkillSet() {
 
     const skillsData = [
+	{ name : 'AWS', src : awsLogo},
+	{ name : 'Docker', src : dockerLogo },
         { name : 'React' , src : reactLogo },
         { name : 'Node.js' , src : nodeLogo },
         { name : 'HTML' , src : htmlLogo },
@@ -37,7 +41,6 @@ export default function SkillSet() {
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'space-between',
-
 
     }
 
