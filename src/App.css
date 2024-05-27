@@ -402,6 +402,11 @@ header {
 
   }
 
+  hero-section>div {
+    margin-top : 30%;
+
+  }
+
   .hero-section>div>p {
 
     font-size: smaller;
@@ -432,11 +437,16 @@ header {
 
   .iconContainer{
     flex: 1 0 15% !important;
+margin: 20px !important;
   }
   
   .project-footer > section > .iconContainer{
     flex: 1 0 20% !important;
   }
+
+ .contact-section{
+   height: calc(-180px + 75vh) !important;
+ }
 
 }
 
@@ -444,7 +454,7 @@ header {
 @media only screen and (max-width: 600px) {
 
   #hero{
-    font-size: xxx-large !important;
+    font-size: 45px !important;
   }
 
   #skills > section , #projects > section , #projects > section > section , .project-footer > section , #experience > section , #experience > section > section{
@@ -465,6 +475,10 @@ header {
     margin-top: 30px;
   }
 
+  .hero-section>div{
+    margin-top: 40%;
+   }
+
   .project-header{
     flex-direction: column ;
     align-items: flex-start;
@@ -480,7 +494,8 @@ header {
   }
 
   .linkContainer{
-    margin-top: 24px;
+	flex : 1 0 15% !important;
+        
   }
 
   .linkContainer > img{
