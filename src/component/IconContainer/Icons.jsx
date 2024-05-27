@@ -18,7 +18,7 @@ export default function Icons({ data , flex }) {
         justifyContent  : 'center',
         alignItems  : 'center',
         flexDirection : 'column',
-        width : '25%',
+        //width : '25%',
         //flex: `1 0 ${flex}%`,
         margin: '32px 60px 32px 0px'
     }
