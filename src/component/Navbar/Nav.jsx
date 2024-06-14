@@ -84,7 +84,7 @@ function Nav() {
 
         </nav>
 
-        <button className='actionBtn' onClick={()=>{ window.open('https://drive.google.com/file/d/1bjJXdv670T-a5tGwTsK8_hxdnaYtlWfp/view?usp=sharing') }} > Resume </button>
+        <button className='actionBtn' onClick={()=>{ window.open('https://docs.google.com/document/d/1bKGS_t7lnm93h9QX2kiZS4cK1AAeOOeu6KRW4KNpaf0/edit?usp=sharing') }} > Resume </button>
 
     </header>
     </>
